@@ -1,0 +1,320 @@
+
+removed 132 packages, and audited 452 packages in 3s
+
+found 0 vulnerabilities
+
+> redcap_cypress@14.7.0 redcap_rsvc:validate_features
+> npm install gherkin-parse glob-fs --no-save --silent --ignore-scripts && node validate_feature_files.js
+
+Mon, Feb  3, 2025  1:06:28 PM
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.17.0                                                                        │
+  │ Browser:        Chrome 132 (headless)                                                          │
+  │ Node Version:   v22.13.1 (C:\Program Files\nodejs\node.exe)                                    │
+  │ Specs:          177 found (C/Data Quality_18/C.4.18.0100. - Data Quality default rules.feature │
+  │                 , C/Data Quality_18/C.4.18.0200. - Data Quality create rules.feature, C/Data Q │
+  │                 uality_18/C.4.18.0300. - Data Quality execute rules.feature, C/Data Quality_18 │
+  │                 /C.4.18.0500. - Data Qua...)                                                   │
+  │ Searched:       cypress/features/*.feature, redcap_rsvc/*/[ABC]/*/*.feature, !redcap_rsvc/*/[A │
+  │                 BC]/*/*REDUNDANT*.feature                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0100. - Data Quality default rules.feature           (1 of 177)
+
+
+  User Interface: The system shall provide default rules after installation of the application.
+    √ C.4.18.0100.100 Default data quality rules (69719ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 10 seconds                                                             │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0100. - Data Quality default rules.feature              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0100. - Data Quality default rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0200. - Data Quality create rules.feature            (2 of 177)
+
+
+  User Interface: The system shall support data quality rule creation.
+    (Attempt 1 of 3) C.4.18.0200.100 Data quality rule creation
+    (Attempt 2 of 3) C.4.18.0200.100 Data quality rule creation
+    1) C.4.18.0200.100 Data quality rule creation
+
+
+  0 passing (6m)
+  1 failing
+
+  1) User Interface: The system shall support data quality rule creation.
+       C.4.18.0200.100 Data quality rule creation:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\Data%20Quality_18\C.4.18.0200.%20-%20Data%20Quality%20create%20rules.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\Data%20Quality_18\C.4.18.0200.%20-%20Data%20Quality%20create%20rules.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     6 minutes, 1 second                                                              │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0200. - Data Quality create rules.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature\User Inte               
+     rface The system shall support data quality rule creation -- C.4.18.0200.100 Dat               
+     a quality rule creation (failed).png                                                           
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature\User Inte               
+     rface The system shall support data quality rule creation -- C.4.18.0200.100 Dat               
+     a quality rule creation (failed) (attempt 2).png                                               
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature\User Inte               
+     rface The system shall support data quality rule creation -- C.4.18.0200.100 Dat               
+     a quality rule creation (failed) (attempt 3).png                                               
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0300. - Data Quality execute rules.feature           (3 of 177)
+
+
+  User Interface: The system shall support executing a rule.
+    √ C.4.18.0300.100 Executing data quality rule (73976ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 14 seconds                                                             │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0300. - Data Quality execute rules.feature              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0300. - Data Quality execute rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0500. - Data Quality disrepancies.feature            (4 of 177)
+
+
+  User Interface: The system shall support viewing discrepancies found in rule execution.
+    (Attempt 1 of 3) C.4.18.0500.100 View discrepancies
+    (Attempt 2 of 3) C.4.18.0500.100 View discrepancies
+    1) C.4.18.0500.100 View discrepancies
+
+
+  0 passing (5m)
+  1 failing
+
+  1) User Interface: The system shall support viewing discrepancies found in rule execution.
+       C.4.18.0500.100 View discrepancies:
+     CypressError: `cy.readFile()` must be passed a non-empty string as its 1st argument. You passed: ``.
+
+https://on.cypress.io/readfile
+      at $Command.readFile (http://localhost:8080/__cypress/runner/cypress_runner.js:120366:68)
+      at cyFn (http://localhost:8080/__cypress/runner/cypress_runner.js:138201:19)
+  From Your Spec Code:
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\Data%20Quality_18\C.4.18.0500.%20-%20Data%20Quality%20disrepancies.feature:16977:14)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 25 seconds                                                            │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0500. - Data Quality disrepancies.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature\User Inte               
+     rface The system shall support viewing discrepancies found in rule execution --                
+     C.4.18.0500.100 View discrepancies (failed).png                                                
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature\User Inte               
+     rface The system shall support viewing discrepancies found in rule execution --                
+     C.4.18.0500.100 View discrepancies (failed) (attempt 2).png                                    
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature\User Inte               
+     rface The system shall support viewing discrepancies found in rule execution --                
+     C.4.18.0500.100 View discrepancies (failed) (attempt 3).png                                    
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0600. - Data Quality exclude rules.feature           (5 of 177)
+
+
+  User Interface: The system shall support excluding discrepancies found in rule execution.
+    √ C.4.18.0600.100 Exclude discrepancies (244201ms)
+
+
+  1 passing (4m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     4 minutes, 5 seconds                                                             │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0600. - Data Quality exclude rules.feature              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0600. - Data Quality exclude rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0700. - Data Quality edit rules.feature              (6 of 177)
+
+
+  User Interface: The system shall support editing of user defined rules.
+    √ C.4.18.0700.100 Edit rule (367006ms)
+
+
+  1 passing (6m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     6 minutes, 7 seconds                                                             │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0700. - Data Quality edit rules.feature                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0700. - Data Quality edit rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.1000. - Data Quality realtime.feature                (7 of 177)
+
+
+  User Interface: The system shall support the ability to run custom data quality rules real time.
+    √ C.4.18.1000.100 Real-time rule execution (162196ms)
+
+
+  1 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     2 minutes, 42 seconds                                                            │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.1000. - Data Quality realtime.feature                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.1000. - Data Quality realtime.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.1300. - Data Quality DAG.feature                     (8 of 177)
+
+
+  User Interface: The system shall support limiting rule viewing to a Data Access Group.

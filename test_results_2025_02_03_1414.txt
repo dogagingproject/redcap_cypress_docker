@@ -1,0 +1,1957 @@
+
+removed 132 packages, and audited 452 packages in 3s
+
+found 0 vulnerabilities
+
+> redcap_cypress@14.7.0 redcap_rsvc:validate_features
+> npm install gherkin-parse glob-fs --no-save --silent --ignore-scripts && node validate_feature_files.js
+
+Mon, Feb  3, 2025  2:14:59 PM
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.17.0                                                                        │
+  │ Browser:        Chrome 132 (headless)                                                          │
+  │ Node Version:   v22.13.1 (C:\Program Files\nodejs\node.exe)                                    │
+  │ Specs:          177 found (A/Add Manage Users_2/A.2.2.0100. - Create Users.feature, A/Add Mana │
+  │                 ge Users_2/A.2.2.0200. - Suspend - Unsuspend.feature, A/Add Manage Users_2/A.2 │
+  │                 .2.0300. - Search by Criteria.feature, A/Add Manage Users_2/A.2.2.0400. - Dele │
+  │                 te.feature, A/Add Manage...)                                                   │
+  │ Searched:       cypress/features/*.feature, redcap_rsvc/*/[ABC]/*/*.feature, !redcap_rsvc/*/[A │
+  │                 BC]/*/*REDUNDANT*.feature                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0100. - Create Users.feature                       (1 of 177)
+
+
+  A.2.2.0100. Add/Manage users Control Center - Users: The system shall support the ability create a single unique user with username, first name, last name, primary email, expiration date, and allow the user to create/copy projects.
+    √ A.2.2.0100.100 System-level User Settings Create Users (56598ms)
+    √ A.2.2.0100.200 Create a Table-based user (25577ms)
+    √ A.2.2.0100.300 Create Table-based users via bulk upload (18587ms)
+    √ A.2.2.0100.400 Prevent a Second User with the Same Username (22584ms)
+    √ A.2.2.0100.500 Search a Table-based user (14403ms)
+    √ A.2.2.0100.600 User has no control center access (9446ms)
+
+
+  6 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     2 minutes, 27 seconds                                                            │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0100. - Create Users.feature                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0100. - Create Users.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0200. - Suspend - Unsuspend.feature                (2 of 177)
+
+
+  A.2.2.0200 Add/Manage users
+    √ A.2.2.0200.100 Account suspension (186113ms)
+
+
+  1 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     3 minutes, 7 seconds                                                             │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0200. - Suspend - Unsuspend.feature                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0200. - Suspend - Unsuspend.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0300. - Search by Criteria.feature                 (3 of 177)
+
+
+  A.2.2.0300. Add/Manage users Control Center - Users: The system shall support the ability to search for individual users and view/edit user information for username, first name, last name and/or primary email.
+    √ A.2.2.0300.100 Search by username, first name, last name and/or primary email (105645ms)
+
+
+  1 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 46 seconds                                                             │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0300. - Search by Criteria.feature                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0300. - Search by Criteria.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0400. - Delete.feature                             (4 of 177)
+
+
+  A.2.2.0400. Add/Manage users
+    √ A.2.2.0400.100 Delete User Function (80266ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 20 seconds                                                             │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0400. - Delete.feature                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0400. - Delete.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0500. - Tabular View.feature                       (5 of 177)
+
+
+  A.2.2.0500. Add/Manage users
+    √ A.2.2.0500.100 Users in tabular form (32104ms)
+
+
+  1 passing (32s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     32 seconds                                                                       │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0500. - Tabular View.feature                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0500. - Tabular View.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0600. - Account Lockout.feature                    (6 of 177)
+
+
+  A.2.2.0600. Add/Manage users
+    √ A.2.2.0600.100 User account locked out after too many attempts (331919ms)
+
+
+  1 passing (6m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 32 seconds                                                            │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0600. - Account Lockout.feature                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0600. - Account Lockout.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0700. - Account Lockout Time Change.featu          (7 of 177)
+            re                                                                                      
+
+
+  A.2.2.0700. Add/Manage users
+    √ A.2.2.0700.100 User account locked time (311886ms)
+
+
+  1 passing (5m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 12 seconds                                                            │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0700. - Account Lockout Time Change.feature           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0700. - Account Lockout Time Change.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0800. - Auto-Logout Inactivity Time.featu          (8 of 177)
+            re                                                                                      
+
+
+  A.2.2.0800. Add/Manage users
+    √ A.2.2.0800.100 User account locked time (585387ms)
+
+
+  1 passing (10m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     9 minutes, 45 seconds                                                            │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0800. - Auto-Logout Inactivity Time.feature           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0800. - Auto-Logout Inactivity Time.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Configuration Check_1/A.1.1.0100. - Run Configuration Check.featur          (9 of 177)
+            e                                                                                       
+
+
+  A.1.1.0100. Run Configuration Check test page
+    √ A.1.1.0100.100 Configuration Checklist Tests (74987ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 15 seconds                                                             │
+  │ Spec Ran:     A/Configuration Check_1/A.1.1.0100. - Run Configuration Check.feature            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Configuration Check_1\A.1.1.0100. - Run Configuration Check.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Assign Administrators_3/A.2.3.0200. - Add Remove Admins.feature            (10 of 177)
+
+
+  A.2.3.0200. Assign administrators and account managers
+    (Attempt 1 of 3) A.2.3.0200.100 Give/remove user admin user rights
+    (Attempt 2 of 3) A.2.3.0200.100 Give/remove user admin user rights
+    1) A.2.3.0200.100 Give/remove user admin user rights
+    (Attempt 1 of 3) A.2.3.0200.100 Remove admin
+    (Attempt 2 of 3) A.2.3.0200.100 Remove admin
+    2) A.2.3.0200.100 Remove admin
+
+
+  0 passing (7m)
+  2 failing
+
+  1) A.2.3.0200. Assign administrators and account managers
+       A.2.3.0200.100 Give/remove user admin user rights:
+     AssertionError: Timed out retrying after 60000ms: Expected to find element: `div[role="dialog"]:visible`, but never found it.
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Assign%20Administrators_3\A.2.3.0200.%20-%20Add%20Remove%20Admins.feature:17278:46)
+
+  2) A.2.3.0200. Assign administrators and account managers
+       A.2.3.0200.100 Remove admin:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Assign%20Administrators_3\A.2.3.0200.%20-%20Add%20Remove%20Admins.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Assign%20Administrators_3\A.2.3.0200.%20-%20Add%20Remove%20Admins.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  6                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     7 minutes, 15 seconds                                                            │
+  │ Spec Ran:     A/Assign Administrators_3/A.2.3.0200. - Add Remove Admins.feature                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Giveremove user a               
+     dmin user rights (failed).png                                                                  
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Giveremove user a               
+     dmin user rights (failed) (attempt 2).png                                                      
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Giveremove user a               
+     dmin user rights (failed) (attempt 3).png                                                      
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Remove admin (fai               
+     led).png                                                                                       
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Remove admin (fai               
+     led) (attempt 2).png                                                                           
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Remove admin (fai               
+     led) (attempt 3).png                                                                           
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Assign Administrators_3/A.2.3.0300. - Super Users and Account Mana         (11 of 177)
+            gers.feature                                                                            
+
+
+  A.2.3.0300. Assign administrators and account managers
+    √ A.2.3.0300.100 Modify and Revoke Admin's User Rights (233168ms)
+
+
+  1 passing (4m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     3 minutes, 53 seconds                                                            │
+  │ Spec Ran:     A/Assign Administrators_3/A.2.3.0300. - Super Users and Account Managers.feature │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Assign Administrators_3\A.2.3.0300. - Super Users and Account Managers.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Assign Administrators_3/A.2.3.0400. - Assign Administrators and Ac         (12 of 177)
+            count Managers.feature                                                                  
+
+
+  A.2.3.0400. Assign administrators and account managers
+    √ A.2.3.0400.100 Give and remove user maximum user privileges (115821ms)
+
+
+  1 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 56 seconds                                                             │
+  │ Spec Ran:     A/Assign Administrators_3/A.2.3.0400. - Assign Administrators and Account Manage │
+  │               rs.feature                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Assign Administrators_3\A.2.3.0400. - Assign Administrators and Account Managers.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Field Validation_8/A.4.8.0100. - Enable field validation.feature           (13 of 177)
+
+
+  Control Center: The system shall support the enabling/disabling of field validation types.  (Date (Y-M-D) | Datetime (Y-M-D H:M) | Datetime w/seconds (Y-M-D H:M:S) | Email | Integer | Number | Number (1 decimal place - comma as decimal) | Time (HH:MM))
+    (Attempt 1 of 3) A.4.8.0100.100 Control center Enable/disable field validation
+    (Attempt 2 of 3) A.4.8.0100.100 Control center Enable/disable field validation
+    1) A.4.8.0100.100 Control center Enable/disable field validation
+
+
+  0 passing (8m)
+  1 failing
+
+  1) Control Center: The system shall support the enabling/disabling of field validation types.  (Date (Y-M-D) | Datetime (Y-M-D H:M) | Datetime w/seconds (Y-M-D H:M:S) | Email | Integer | Number | Number (1 decimal place - comma as decimal) | Time (HH:MM))
+       A.4.8.0100.100 Control center Enable/disable field validation:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Field%20Validation_8\A.4.8.0100.%20-%20Enable%20field%20validation.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Field%20Validation_8\A.4.8.0100.%20-%20Enable%20field%20validation.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     7 minutes, 41 seconds                                                            │
+  │ Spec Ran:     A/Field Validation_8/A.4.8.0100. - Enable field validation.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4.8.0               
+     1.png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4. (1               
+     ).png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4. (2               
+     ).png                                                                                          
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Browse Projects_5/A.1.5.0100. - Browse Projects.feature                    (14 of 177)
+
+
+  A.1.5.0100. Browse Projects
+    √ A.1.5.0100.100 Search/Sort project and Locate by User (140280ms)
+
+
+  1 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     2 minutes, 21 seconds                                                            │
+  │ Spec Ran:     A/Browse Projects_5/A.1.5.0100. - Browse Projects.feature                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Browse Projects_5\A.1.5.0100. - Browse Projects.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/File Repository_26/A.3.26.0100. - Public File Share.feature                (15 of 177)
+
+
+  Control Center: The system shall provide the ability to enable/disable sharing of files via a public link.
+    (Attempt 1 of 3) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+    (Attempt 2 of 3) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+    1) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+
+
+  0 passing (6m)
+  1 failing
+
+  1) Control Center: The system shall provide the ability to enable/disable sharing of files via a public link.
+       A.3.26.0100.100 Enable/Disable file repository public links via Control Center:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\File%20Repository_26\A.3.26.0100.%20-%20Public%20File%20Share.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\File%20Repository_26\A.3.26.0100.%20-%20Public%20File%20Share.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     6 minutes, 7 seconds                                                             │
+  │ Spec Ran:     A/File Repository_26/A.3.26.0100. - Public File Share.feature                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed).png                                                                        
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed) (attempt 2).png                                                            
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed) (attempt 3).png                                                            
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\File Repository_26\A.3.26.0100. - Public File Share.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0100. - User Create Projects.feature                 (16 of 177)
+
+
+  A.6.4.0100. Manage project creation, deletion, and settings.   Control Center: The system shall support the option to limit the creation of new projects to administrators.
+    (Attempt 1 of 3) A.6.4.0100.100 User's ability to create new projects
+    (Attempt 2 of 3) A.6.4.0100.100 User's ability to create new projects
+    1) A.6.4.0100.100 User's ability to create new projects
+
+
+  0 passing (5m)
+  1 failing
+
+  1) A.6.4.0100. Manage project creation, deletion, and settings.   Control Center: The system shall support the option to limit the creation of new projects to administrators.
+       A.6.4.0100.100 User's ability to create new projects:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Project%20Setup_4\A.6.4.0100.%20-%20User%20Create%20Projects.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Project%20Setup_4\A.6.4.0100.%20-%20User%20Create%20Projects.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 15 seconds                                                            │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0100. - User Create Projects.feature                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed).png                                
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed) (attempt 2).png                    
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed) (attempt 3).png                    
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0200. - Move to Production.feature                   (17 of 177)
+
+
+  A.6.4.0200. Manage project creation, deletion, and settings
+    √ A.6.4.0200.100 User requests admin move project to production (188668ms)
+    √ A.6.4.200.200 User moves project to production (106796ms)
+
+
+  2 passing (5m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     4 minutes, 56 seconds                                                            │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0200. - Move to Production.feature                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0200. - Move to Production.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0400. - Draft Mode.feature                           (18 of 177)
+
+
+  A.6.4.0400. Manage project creation, deletion, and settings. Control Center: The system shall allow production Draft Mode changes to be approved automatically under certain conditions.
+    √ A.6.4.0400.100 User's ability to approve draft changes without administrative approval (345565ms)
+    √ A.6.4.0400.200 User's ability to approve draft changes without administrative approval if no existing fields were modified (281288ms)
+    √ A.6.4.0400.300 User's ability to approve draft changes without administrative approval if no critical issues exist (560192ms)
+
+
+  3 passing (20m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     19 minutes, 48 seconds                                                           │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0400. - Draft Mode.feature                               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0400. - Draft Mode.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0500. - Repeatable Instruments.feature               (19 of 177)
+
+
+  A.6.4.0500. Control Center: The system shall support the option to limit adding or modifying repeatable instruments while in production to administrators
+    √ A.6.4.0500.100 User's ability to add or modify repeatable instrument while in production mode (711054ms)
+
+
+  1 passing (12m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     11 minutes, 52 seconds                                                           │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0500. - Repeatable Instruments.feature                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0500. - Repeatable Instruments.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0600. - Events and Arms in Production.featur         (20 of 177)
+            e                                                                                       
+
+
+  A.6.4.0600 Manage project creation, deletion, and settings. Control Center: The system shall support the option to limit adding or modifying events and arms while in production to administrators. Note: user can add instrument to event in production.
+    √ A.6.4.0600.100 User's ability to add or modify events and arms while in production mode (1657528ms)
+
+
+  1 passing (28m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     27 minutes, 40 seconds                                                           │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0600. - Events and Arms in Production.feature            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0600. - Events and Arms in Production.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0700. - Blank Slate Projects.feature                 (21 of 177)
+
+
+  A.6.4.0700. Manage project creation, deletion, and settings. User Interface  General: The system shall support the ability to create new projects from a blank slate.
+    √ A.6.4.0700.100 Create blank new project (35329ms)
+
+
+  1 passing (35s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     35 seconds                                                                       │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0700. - Blank Slate Projects.feature                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0700. - Blank Slate Projects.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.1500. - Manage Survey User..feature                  (22 of 177)
+
+
+  Control Center: The system shall allow the survey feature to be enabled or disabled.
+    √ A.6.4.1500.100 Enable and disable survey feature (116758ms)
+
+
+  1 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 57 seconds                                                             │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.1500. - Manage Survey User..feature                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.1500. - Manage Survey User..feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.1600. - Edit Survey Responses.feature                (23 of 177)
+
+
+  Control Center: The system shall allow users to edit survey responses to be enabled or disabled.
+    √ A.6.4.1600.100 (223251ms)
+
+
+  1 passing (4m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     3 minutes, 44 seconds                                                            │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.1600. - Edit Survey Responses.feature                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.1600. - Edit Survey Responses.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Status_11/A.6.11.0100. - Administrative Controls in Contro         (24 of 177)
+            l Center.feature                                                                        
+
+
+  A.6.11.0100. Control Center: The system shall support limiting the ability to move projects to production to administrators.
+    √ A.6.11.0100.100 Production status setting in control center (185711ms)
+
+
+  1 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     3 minutes, 6 seconds                                                             │
+  │ Spec Ran:     A/Project Status_11/A.6.11.0100. - Administrative Controls in Control Center.fea │
+  │               ture                                                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Status_11\A.6.11.0100. - Administrative Controls in Control Center.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Security Settings_12/A.2.12.0100. - System Status.feature                  (25 of 177)
+
+
+  A.2.12.0100. Security Settings- The system shall support changing the system status between online and offline.
+    √ A.2.12.0100.100 System Status Online/Offline (96884ms)
+
+
+  1 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 37 seconds                                                             │
+  │ Spec Ran:     A/Security Settings_12/A.2.12.0100. - System Status.feature                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Security Settings_12\A.2.12.0100. - System Status.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/e-Consent framework_24/A.3.24.0900. - eConsent display.feature             (26 of 177)
+
+
+  Control Center: The system shall support the option to display or hide the 'e-Consent Framework' for all surveys.
+    (Attempt 1 of 3) A.3.24.0900.100 Display/Hide e-Consent Framework for all surveys
+    (Attempt 2 of 3) A.3.24.0900.100 Display/Hide e-Consent Framework for all surveys
+    1) A.3.24.0900.100 Display/Hide e-Consent Framework for all surveys
+    (Attempt 1 of 3) #Disable framework
+    (Attempt 2 of 3) #Disable framework
+    2) #Disable framework
+    (Attempt 1 of 3) #Enable e-Consent Framework
+    (Attempt 2 of 3) #Enable e-Consent Framework
+    3) #Enable e-Consent Framework
+
+
+  0 passing (3m)
+  3 failing
+
+  1) Control Center: The system shall support the option to display or hide the 'e-Consent Framework' for all surveys.
+       A.3.24.0900.100 Display/Hide e-Consent Framework for all surveys:
+     Error: 
+Step implementation missing for "I click the link labeled "Designer"".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - redcap_rsvc\Feature Tests/[filepath]/**/*.{js,mjs,ts,tsx}
+  - redcap_rsvc\Feature Tests/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - redcap_rsvc\Feature Tests\A\e-Consent framework_24\A.3.24.0900. - eConsent display\**\*.{js,mjs,ts,tsx}
+  - redcap_rsvc\Feature Tests\A\e-Consent framework_24\A.3.24.0900. - eConsent display.{js,mjs,ts,tsx}
+  - cypress\support\step_definitions\**\*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress\support\step_definitions\rctf.js
+  - cypress\support\step_definitions\index.js
+
+However, none of these files contained a step definition matching "I click the link labeled "Designer"".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I click the link labeled {string}", function (string) {
+    return "pending";
+  });
+  
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.0900.%20-%20eConsent%20display.feature:15690:29)
+
+  2) Control Center: The system shall support the option to display or hide the 'e-Consent Framework' for all surveys.
+       #Disable framework:
+     Error: 
+Step implementation missing for "I select the dropdown option labeled "Hide e-Consent Framework option" on the dropdown field labeled "Display ‘e-Consent Framework’ option for ALL surveys?"".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - redcap_rsvc\Feature Tests/[filepath]/**/*.{js,mjs,ts,tsx}
+  - redcap_rsvc\Feature Tests/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - redcap_rsvc\Feature Tests\A\e-Consent framework_24\A.3.24.0900. - eConsent display\**\*.{js,mjs,ts,tsx}
+  - redcap_rsvc\Feature Tests\A\e-Consent framework_24\A.3.24.0900. - eConsent display.{js,mjs,ts,tsx}
+  - cypress\support\step_definitions\**\*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress\support\step_definitions\rctf.js
+  - cypress\support\step_definitions\index.js
+
+However, none of these files contained a step definition matching "I select the dropdown option labeled "Hide e-Consent Framework option" on the dropdown field labeled "Display ‘e-Consent Framework’ option for ALL surveys?"".
+
+You can implement it using the suggestion(s) below.
+
+  When("I select the dropdown option labeled {string} on the dropdown field labeled {string}", function (string, string2) {
+    return "pending";
+  });
+  
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.0900.%20-%20eConsent%20display.feature:15690:29)
+
+  3) Control Center: The system shall support the option to display or hide the 'e-Consent Framework' for all surveys.
+       #Enable e-Consent Framework:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.0900.%20-%20eConsent%20display.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.0900.%20-%20eConsent%20display.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      3                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  9                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     3 minutes, 27 seconds                                                            │
+  │ Spec Ran:     A/e-Consent framework_24/A.3.24.0900. - eConsent display.feature                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- A.3.24.0900.100 DisplayHide e-Consent Framework for all                
+     surveys (failed).png                                                                           
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- A.3.24.0900.100 DisplayHide e-Consent Framework for all                
+     surveys (failed) (attempt 2).png                                                               
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- A.3.24.0900.100 DisplayHide e-Consent Framework for all                
+     surveys (failed) (attempt 3).png                                                               
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- #Disable framework (failed).png                                        
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- #Disable framework (failed) (attempt 2).png                            
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- #Disable framework (failed) (attempt 3).png                            
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- #Enable e-Consent Framework (failed).png                               
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- #Enable e-Consent Framework (failed) (attempt 2).png                   
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature\Control Cen               
+     ter The system shall support the option to display or hide the 'e-Consent Framew               
+     ork' for all surveys -- #Enable e-Consent Framework (failed) (attempt 3).png                   
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\e-Consent framework_24\A.3.24.0900. - eConsent display.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/e-Consent framework_24/A.3.24.1000. - eConsent IP address.feature          (27 of 177)
+
+
+  Control Center: The system shall support capturing the IP address of survey participants that certify the e-Consent process and store their IP in the File Repository table.
+    (Attempt 1 of 3) A.3.24.1000.100 Enable IP address capture for e-Consent
+    (Attempt 2 of 3) A.3.24.1000.100 Enable IP address capture for e-Consent
+    1) A.3.24.1000.100 Enable IP address capture for e-Consent
+    (Attempt 1 of 3) Do capture IP address
+    (Attempt 2 of 3) Do capture IP address
+    2) Do capture IP address
+    (Attempt 1 of 3) Do NOT capture IP address
+    (Attempt 2 of 3) Do NOT capture IP address
+    3) Do NOT capture IP address
+
+
+  0 passing (10m)
+  3 failing
+
+  1) Control Center: The system shall support capturing the IP address of survey participants that certify the e-Consent process and store their IP in the File Repository table.
+       A.3.24.1000.100 Enable IP address capture for e-Consent:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1000.%20-%20eConsent%20IP%20address.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1000.%20-%20eConsent%20IP%20address.feature:18302:11)
+
+  2) Control Center: The system shall support capturing the IP address of survey participants that certify the e-Consent process and store their IP in the File Repository table.
+       Do capture IP address:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1000.%20-%20eConsent%20IP%20address.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1000.%20-%20eConsent%20IP%20address.feature:18302:11)
+
+  3) Control Center: The system shall support capturing the IP address of survey participants that certify the e-Consent process and store their IP in the File Repository table.
+       Do NOT capture IP address:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1000.%20-%20eConsent%20IP%20address.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1000.%20-%20eConsent%20IP%20address.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      3                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  9                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     10 minutes, 22 seconds                                                           │
+  │ Spec Ran:     A/e-Consent framework_24/A.3.24.1000. - eConsent IP address.feature              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- A.3.24.1000.100 Enable IP address capture for e-Consent (failed).png                     
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- A.3.24.1000.100 Enable IP address capture for e-Consent (failed) (attempt                
+     2).png                                                                                         
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- A.3.24.1000.100 Enable IP address capture for e-Consent (failed) (attempt                
+     3).png                                                                                         
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- Do capture IP address (failed).png                                                       
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- Do capture IP address (failed) (attempt 2).png                                           
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- Do capture IP address (failed) (attempt 3).png                                           
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- Do NOT capture IP address (failed).png                                                   
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- Do NOT capture IP address (failed) (attempt 2).png                                       
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature\Control                
+     Center The system shall support capturing the IP address of survey participants                
+     that certify the e-Consent process and store their IP in the File Repository tab               
+     le -- Do NOT capture IP address (failed) (attempt 3).png                                       
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\e-Consent framework_24\A.3.24.1000. - eConsent IP address.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/e-Consent framework_24/A.3.24.1100. - eConsent custom message.feat         (28 of 177)
+            ure                                                                                     
+
+
+  Control Center: The system shall allow optional adding of a custom message on the e-Consent Framework setup page of every project.
+    (Attempt 1 of 3) A.3.24.1100.100 Custom message on the e-Consent Framework setup page of every project
+    (Attempt 2 of 3) A.3.24.1100.100 Custom message on the e-Consent Framework setup page of every project
+    1) A.3.24.1100.100 Custom message on the e-Consent Framework setup page of every project
+    (Attempt 1 of 3) Verify institutional custom message in frramework
+    (Attempt 2 of 3) Verify institutional custom message in frramework
+    2) Verify institutional custom message in frramework
+
+
+  0 passing (6m)
+  2 failing
+
+  1) Control Center: The system shall allow optional adding of a custom message on the e-Consent Framework setup page of every project.
+       A.3.24.1100.100 Custom message on the e-Consent Framework setup page of every project:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1100.%20-%20eConsent%20custom%20message.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1100.%20-%20eConsent%20custom%20message.feature:18302:11)
+
+  2) Control Center: The system shall allow optional adding of a custom message on the e-Consent Framework setup page of every project.
+       Verify institutional custom message in frramework:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1100.%20-%20eConsent%20custom%20message.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\e-Consent%20framework_24\A.3.24.1100.%20-%20eConsent%20custom%20message.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  6                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     6 minutes, 9 seconds                                                             │
+  │ Spec Ran:     A/e-Consent framework_24/A.3.24.1100. - eConsent custom message.feature          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1100. - eConsent custom message.feature\Cont               
+     rol Center The system shall allow optional adding of a custom message on the e-C               
+     onsent Framework setup page of every project -- A.3.24.1100.100 Custom message o               
+     n the e-Consent Framework setup page of every project (failed).png                             
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1100. - eConsent custom message.feature\Cont               
+     rol Center The system shall allow optional adding of a custom message on the e-C               
+     onsent Framework setup page of every project -- A.3.24.1100.100 Custom message o               
+     n the e-Consent Framework setup page of every project (failed) (attempt 2).png                 
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1100. - eConsent custom message.feature\Cont               
+     rol Center The system shall allow optional adding of a custom message on the e-C               
+     onsent Framework setup page of every project -- A.3.24.1100.100 Custom message o               
+     n the e-Consent Framework setup page of every project (failed) (attempt 3).png                 
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1100. - eConsent custom message.feature\Cont               
+     rol Center The system shall allow optional adding of a custom message on the e-C               
+     onsent Framework setup page of every project -- Verify institutional custom mess               
+     age in frramework (failed).png                                                                 
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1100. - eConsent custom message.feature\Cont               
+     rol Center The system shall allow optional adding of a custom message on the e-C               
+     onsent Framework setup page of every project -- Verify institutional custom mess               
+     age in frramework (failed) (attempt 2).png                                                     
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\A\e-Consent framework_24\A.3.24.1100. - eConsent custom message.feature\Cont               
+     rol Center The system shall allow optional adding of a custom message on the e-C               
+     onsent Framework setup page of every project -- Verify institutional custom mess               
+     age in frramework (failed) (attempt 3).png                                                     
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\e-Consent framework_24\A.3.24.1100. - eConsent custom message.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/e-Consent framework_24/A.3.24.3000. - eConsent PL edit.feature             (29 of 177)
+
+
+  0 passing (0ms)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     A/e-Consent framework_24/A.3.24.3000. - eConsent PL edit.feature                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\e-Consent framework_24\A.3.24.3000. - eConsent PL edit.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0100. - Data Quality default rules.feature          (30 of 177)
+
+
+  User Interface: The system shall provide default rules after installation of the application.
+    √ C.4.18.0100.100 Default data quality rules (61358ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 1 second                                                               │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0100. - Data Quality default rules.feature              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0100. - Data Quality default rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0200. - Data Quality create rules.feature           (31 of 177)
+
+
+  User Interface: The system shall support data quality rule creation.
+    (Attempt 1 of 3) C.4.18.0200.100 Data quality rule creation
+    (Attempt 2 of 3) C.4.18.0200.100 Data quality rule creation
+    1) C.4.18.0200.100 Data quality rule creation
+
+
+  0 passing (6m)
+  1 failing
+
+  1) User Interface: The system shall support data quality rule creation.
+       C.4.18.0200.100 Data quality rule creation:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\Data%20Quality_18\C.4.18.0200.%20-%20Data%20Quality%20create%20rules.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\Data%20Quality_18\C.4.18.0200.%20-%20Data%20Quality%20create%20rules.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 38 seconds                                                            │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0200. - Data Quality create rules.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature\User Inte               
+     rface The system shall support data quality rule creation -- C.4.18.0200.100 Dat               
+     a quality rule creation (failed).png                                                           
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature\User Inte               
+     rface The system shall support data quality rule creation -- C.4.18.0200.100 Dat               
+     a quality rule creation (failed) (attempt 2).png                                               
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature\User Inte               
+     rface The system shall support data quality rule creation -- C.4.18.0200.100 Dat               
+     a quality rule creation (failed) (attempt 3).png                                               
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0200. - Data Quality create rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0300. - Data Quality execute rules.feature          (32 of 177)
+
+
+  User Interface: The system shall support executing a rule.
+    √ C.4.18.0300.100 Executing data quality rule (69047ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 9 seconds                                                              │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0300. - Data Quality execute rules.feature              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0300. - Data Quality execute rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0500. - Data Quality disrepancies.feature           (33 of 177)
+
+
+  User Interface: The system shall support viewing discrepancies found in rule execution.
+    (Attempt 1 of 3) C.4.18.0500.100 View discrepancies
+    (Attempt 2 of 3) C.4.18.0500.100 View discrepancies
+    1) C.4.18.0500.100 View discrepancies
+
+
+  0 passing (5m)
+  1 failing
+
+  1) User Interface: The system shall support viewing discrepancies found in rule execution.
+       C.4.18.0500.100 View discrepancies:
+     CypressError: `cy.readFile()` must be passed a non-empty string as its 1st argument. You passed: ``.
+
+https://on.cypress.io/readfile
+      at $Command.readFile (http://localhost:8080/__cypress/runner/cypress_runner.js:120366:68)
+      at cyFn (http://localhost:8080/__cypress/runner/cypress_runner.js:138201:19)
+  From Your Spec Code:
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\Data%20Quality_18\C.4.18.0500.%20-%20Data%20Quality%20disrepancies.feature:16977:14)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 6 seconds                                                             │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0500. - Data Quality disrepancies.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature\User Inte               
+     rface The system shall support viewing discrepancies found in rule execution --                
+     C.4.18.0500.100 View discrepancies (failed).png                                                
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature\User Inte               
+     rface The system shall support viewing discrepancies found in rule execution --                
+     C.4.18.0500.100 View discrepancies (failed) (attempt 2).png                                    
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature\User Inte               
+     rface The system shall support viewing discrepancies found in rule execution --                
+     C.4.18.0500.100 View discrepancies (failed) (attempt 3).png                                    
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0500. - Data Quality disrepancies.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0600. - Data Quality exclude rules.feature          (34 of 177)
+
+
+  User Interface: The system shall support excluding discrepancies found in rule execution.
+    √ C.4.18.0600.100 Exclude discrepancies (215175ms)
+
+
+  1 passing (4m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     3 minutes, 36 seconds                                                            │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0600. - Data Quality exclude rules.feature              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0600. - Data Quality exclude rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.0700. - Data Quality edit rules.feature             (35 of 177)
+
+
+  User Interface: The system shall support editing of user defined rules.
+    √ C.4.18.0700.100 Edit rule (309658ms)
+
+
+  1 passing (5m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 10 seconds                                                            │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.0700. - Data Quality edit rules.feature                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.0700. - Data Quality edit rules.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.1000. - Data Quality realtime.feature               (36 of 177)
+
+
+  User Interface: The system shall support the ability to run custom data quality rules real time.
+    √ C.4.18.1000.100 Real-time rule execution (154224ms)
+
+
+  1 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     2 minutes, 34 seconds                                                            │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.1000. - Data Quality realtime.feature                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.1000. - Data Quality realtime.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.1300. - Data Quality DAG.feature                    (37 of 177)
+
+
+  User Interface: The system shall support limiting rule viewing to a Data Access Group.
+    √ C.4.18.1300.100 DAG limits rule viewing (267525ms)
+
+
+  1 passing (4m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     4 minutes, 28 seconds                                                            │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.1300. - Data Quality DAG.feature                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.1300. - Data Quality DAG.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Data Quality_18/C.4.18.1400. - Data Quality support user rights.fe         (38 of 177)
+            ature                                                                                   
+
+
+  User Interface: The system shall support limiting a rule viewing that references a field to only users with access rights.
+    √ C.4.18.1400.100 User access limit rule viewing (243382ms)
+
+
+  1 passing (4m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     4 minutes, 3 seconds                                                             │
+  │ Spec Ran:     C/Data Quality_18/C.4.18.1400. - Data Quality support user rights.feature        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\Data Quality_18\C.4.18.1400. - Data Quality support user rights.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/File Repository_26/C.3.26.0200. - View Access & User Rights.featur         (39 of 177)
+            e                                                                                       
+
+
+  User Interface: The system shall support limiting file repository user view access and export rights.
+    (Attempt 1 of 3) C.3.26.200.100 Limit user view and export access based on User Rights and DAG
+    (Attempt 2 of 3) C.3.26.200.100 Limit user view and export access based on User Rights and DAG
+    1) C.3.26.200.100 Limit user view and export access based on User Rights and DAG
+
+
+  0 passing (1m)
+  1 failing
+
+  1) User Interface: The system shall support limiting file repository user view access and export rights.
+       C.3.26.200.100 Limit user view and export access based on User Rights and DAG:
+     Error: 
+Step implementation missing for "I click the link labeled "Designer"".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - redcap_rsvc\Feature Tests/[filepath]/**/*.{js,mjs,ts,tsx}
+  - redcap_rsvc\Feature Tests/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - redcap_rsvc\Feature Tests\C\File Repository_26\C.3.26.0200. - View Access & User Rights\**\*.{js,mjs,ts,tsx}
+  - redcap_rsvc\Feature Tests\C\File Repository_26\C.3.26.0200. - View Access & User Rights.{js,mjs,ts,tsx}
+  - cypress\support\step_definitions\**\*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress\support\step_definitions\rctf.js
+  - cypress\support\step_definitions\index.js
+
+However, none of these files contained a step definition matching "I click the link labeled "Designer"".
+
+You can implement it using the suggestion(s) below.
+
+  When("I click the link labeled {string}", function (string) {
+    return "pending";
+  });
+  
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\File%20Repository_26\C.3.26.0200.%20-%20View%20Access%20%26%20User%20Rights.feature:15690:29)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 12 seconds                                                             │
+  │ Spec Ran:     C/File Repository_26/C.3.26.0200. - View Access & User Rights.feature            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0200. - View Access & User Rights.feature\User I               
+     nterface The system shall support limiting file repository user view access and                
+     export rights -- C.3.26.200.100 Limit user view and export access based on User                
+     Rights and DAG (failed).png                                                                    
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0200. - View Access & User Rights.feature\User I               
+     nterface The system shall support limiting file repository user view access and                
+     export rights -- C.3.26.200.100 Limit user view and export access based on User                
+     Rights and DAG (failed) (attempt 2).png                                                        
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0200. - View Access & User Rights.feature\User I               
+     nterface The system shall support limiting file repository user view access and                
+     export rights -- C.3.26.200.100 Limit user view and export access based on User                
+     Rights and DAG (failed) (attempt 3).png                                                        
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\File Repository_26\C.3.26.0200. - View Access & User Rights.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/File Repository_26/C.3.26.0300. - Storage & Organization.feature           (40 of 177)
+
+
+  User Interface: The system shall support the storage, organization, and sharing of project files for permanent folders: (Data Export | e-Consent PDFs | Recycle Bin | Custom Create folder / Sub-folder)
+    (Attempt 1 of 3) C.3.26.300.100 Automatic uploading of data export logs into the data export folder
+    (Attempt 2 of 3) C.3.26.300.100 Automatic uploading of data export logs into the data export folder
+    1) C.3.26.300.100 Automatic uploading of data export logs into the data export folder
+    √ C.3.26.300.200 Automatic uploading of e-Consent Framework PDFs (63ms)
+    (Attempt 1 of 3) C.3.26.300.300 Recycle bin function - permanently force delete
+    (Attempt 2 of 3) C.3.26.300.300 Recycle bin function - permanently force delete
+    2) C.3.26.300.300 Recycle bin function - permanently force delete
+    √ C.3.26.300.400 Custom folder / sub-folder (98ms)
+
+
+  2 passing (8m)
+  2 failing
+
+  1) User Interface: The system shall support the storage, organization, and sharing of project files for permanent folders: (Data Export | e-Consent PDFs | Recycle Bin | Custom Create folder / Sub-folder)
+       C.3.26.300.100 Automatic uploading of data export logs into the data export folder:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\File%20Repository_26\C.3.26.0300.%20-%20Storage%20%26%20Organization.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\File%20Repository_26\C.3.26.0300.%20-%20Storage%20%26%20Organization.feature:18302:11)
+
+  2) User Interface: The system shall support the storage, organization, and sharing of project files for permanent folders: (Data Export | e-Consent PDFs | Recycle Bin | Custom Create folder / Sub-folder)
+       C.3.26.300.300 Recycle bin function - permanently force delete:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\File%20Repository_26\C.3.26.0300.%20-%20Storage%20%26%20Organization.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\C\File%20Repository_26\C.3.26.0300.%20-%20Storage%20%26%20Organization.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        4                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  6                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     8 minutes, 5 seconds                                                             │
+  │ Spec Ran:     C/File Repository_26/C.3.26.0300. - Storage & Organization.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0300. - Storage & Organization.feature\User Inte               
+     rface The system shall support the storage, organization, and sharing of project               
+      files for permanent folders (Data Export  e-Consent PDFs  Recycle Bin  Custom C               
+     reate folder  Sub-folder) -- C.3.26.300.100 Automatic uploading of data export l               
+     o.png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0300. - Storage & Organization.feature\User Inte               
+     rface The system shall support the storage, organization, and sharing of project               
+      files for permanent folders (Data Export  e-Consent PDFs  Recycle Bin  Custom C               
+     reate folder  Sub-folder) -- C.3.26.300.100 Automatic uploading of data expor (1               
+     ).png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0300. - Storage & Organization.feature\User Inte               
+     rface The system shall support the storage, organization, and sharing of project               
+      files for permanent folders (Data Export  e-Consent PDFs  Recycle Bin  Custom C               
+     reate folder  Sub-folder) -- C.3.26.300.100 Automatic uploading of data expor (2               
+     ).png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0300. - Storage & Organization.feature\User Inte               
+     rface The system shall support the storage, organization, and sharing of project               
+      files for permanent folders (Data Export  e-Consent PDFs  Recycle Bin  Custom C               
+     reate folder  Sub-folder) -- C.3.26.300.300 Recycle bin function - permanently f               
+     o.png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0300. - Storage & Organization.feature\User Inte               
+     rface The system shall support the storage, organization, and sharing of project               
+      files for permanent folders (Data Export  e-Consent PDFs  Recycle Bin  Custom C               
+     reate folder  Sub-folder) -- C.3.26.300.300 Recycle bin function - permanentl (1               
+     ).png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1264x625)
+     ots\C\File Repository_26\C.3.26.0300. - Storage & Organization.feature\User Inte               
+     rface The system shall support the storage, organization, and sharing of project               
+      files for permanent folders (Data Export  e-Consent PDFs  Recycle Bin  Custom C               
+     reate folder  Sub-folder) -- C.3.26.300.300 Recycle bin function - permanentl (2               
+     ).png                                                                                          
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\C\File Repository_26\C.3.26.0300. - Storage & Organization.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  C/Reporting_22/C.5.22.0100. - Report Access.feature                          (41 of 177)
+
+
+  User Interface: The system shall support the ability to assign the User Access to View Access and Edit Access in the Reporting module
+    (Attempt 1 of 3) C.5.22.100.100 - MISSING SCENARIO TITLE

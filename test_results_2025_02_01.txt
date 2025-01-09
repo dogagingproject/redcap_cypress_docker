@@ -1,0 +1,922 @@
+
+removed 132 packages, and audited 452 packages in 3s
+
+found 0 vulnerabilities
+
+> redcap_cypress@14.7.0 redcap_rsvc:validate_features
+> npm install gherkin-parse glob-fs --no-save --silent --ignore-scripts && node validate_feature_files.js
+
+Sat, Feb  1, 2025  9:13:44 AM
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.17.0                                                                        │
+  │ Browser:        Electron 118 (headless)                                                        │
+  │ Node Version:   v22.13.1 (C:\Program Files\nodejs\node.exe)                                    │
+  │ Specs:          177 found (A/Add Manage Users_2/A.2.2.0100. - Create Users.feature, A/Add Mana │
+  │                 ge Users_2/A.2.2.0200. - Suspend - Unsuspend.feature, A/Add Manage Users_2/A.2 │
+  │                 .2.0300. - Search by Criteria.feature, A/Add Manage Users_2/A.2.2.0400. - Dele │
+  │                 te.feature, A/Add Manage...)                                                   │
+  │ Searched:       cypress/features/*.feature, redcap_rsvc/*/[ABC]/*/*.feature, !redcap_rsvc/*/[A │
+  │                 BC]/*/*REDUNDANT*.feature                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0100. - Create Users.feature                       (1 of 177)
+
+
+  A.2.2.0100. Add/Manage users Control Center - Users: The system shall support the ability create a single unique user with username, first name, last name, primary email, expiration date, and allow the user to create/copy projects.
+    √ A.2.2.0100.100 System-level User Settings Create Users (35506ms)
+    √ A.2.2.0100.200 Create a Table-based user (14678ms)
+    √ A.2.2.0100.300 Create Table-based users via bulk upload (13102ms)
+    √ A.2.2.0100.400 Prevent a Second User with the Same Username (14177ms)
+    √ A.2.2.0100.500 Search a Table-based user (8680ms)
+    √ A.2.2.0100.600 User has no control center access (6231ms)
+
+
+  6 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 33 seconds                                                             │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0100. - Create Users.feature                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0100. - Create Users.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0200. - Suspend - Unsuspend.feature                (2 of 177)
+
+
+  A.2.2.0200 Add/Manage users
+    √ A.2.2.0200.100 Account suspension (166987ms)
+
+
+  1 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     2 minutes, 47 seconds                                                            │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0200. - Suspend - Unsuspend.feature                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0200. - Suspend - Unsuspend.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0300. - Search by Criteria.feature                 (3 of 177)
+
+
+  A.2.2.0300. Add/Manage users Control Center - Users: The system shall support the ability to search for individual users and view/edit user information for username, first name, last name and/or primary email.
+    √ A.2.2.0300.100 Search by username, first name, last name and/or primary email (102270ms)
+
+
+  1 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 42 seconds                                                             │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0300. - Search by Criteria.feature                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0300. - Search by Criteria.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0400. - Delete.feature                             (4 of 177)
+
+
+  A.2.2.0400. Add/Manage users
+    √ A.2.2.0400.100 Delete User Function (76014ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 16 seconds                                                             │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0400. - Delete.feature                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0400. - Delete.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0500. - Tabular View.feature                       (5 of 177)
+
+
+  A.2.2.0500. Add/Manage users
+    √ A.2.2.0500.100 Users in tabular form (26796ms)
+
+
+  1 passing (27s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0500. - Tabular View.feature                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0500. - Tabular View.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0600. - Account Lockout.feature                    (6 of 177)
+
+
+  A.2.2.0600. Add/Manage users
+    √ A.2.2.0600.100 User account locked out after too many attempts (285431ms)
+
+
+  1 passing (5m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     4 minutes, 45 seconds                                                            │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0600. - Account Lockout.feature                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0600. - Account Lockout.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0700. - Account Lockout Time Change.featu          (7 of 177)
+            re                                                                                      
+
+
+  A.2.2.0700. Add/Manage users
+    √ A.2.2.0700.100 User account locked time (303964ms)
+
+
+  1 passing (5m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 4 seconds                                                             │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0700. - Account Lockout Time Change.feature           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0700. - Account Lockout Time Change.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Add Manage Users_2/A.2.2.0800. - Auto-Logout Inactivity Time.featu          (8 of 177)
+            re                                                                                      
+
+
+  A.2.2.0800. Add/Manage users
+    √ A.2.2.0800.100 User account locked time (537432ms)
+
+
+  1 passing (9m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     8 minutes, 57 seconds                                                            │
+  │ Spec Ran:     A/Add Manage Users_2/A.2.2.0800. - Auto-Logout Inactivity Time.feature           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Add Manage Users_2\A.2.2.0800. - Auto-Logout Inactivity Time.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Browse Projects_5/A.1.5.0100. - Browse Projects.feature                     (9 of 177)
+
+
+  A.1.5.0100. Browse Projects
+    √ A.1.5.0100.100 Search/Sort project and Locate by User (72181ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 12 seconds                                                             │
+  │ Spec Ran:     A/Browse Projects_5/A.1.5.0100. - Browse Projects.feature                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Browse Projects_5\A.1.5.0100. - Browse Projects.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Assign Administrators_3/A.2.3.0200. - Add Remove Admins.feature            (10 of 177)
+
+
+  A.2.3.0200. Assign administrators and account managers
+    (Attempt 1 of 3) A.2.3.0200.100 Give/remove user admin user rights
+    (Attempt 2 of 3) A.2.3.0200.100 Give/remove user admin user rights
+    1) A.2.3.0200.100 Give/remove user admin user rights
+    (Attempt 1 of 3) A.2.3.0200.100 Remove admin
+    (Attempt 2 of 3) A.2.3.0200.100 Remove admin
+    2) A.2.3.0200.100 Remove admin
+
+
+  0 passing (7m)
+  2 failing
+
+  1) A.2.3.0200. Assign administrators and account managers
+       A.2.3.0200.100 Give/remove user admin user rights:
+     AssertionError: Timed out retrying after 60000ms: Expected to find element: `div[role="dialog"]:visible`, but never found it.
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Assign%20Administrators_3\A.2.3.0200.%20-%20Add%20Remove%20Admins.feature:17278:46)
+
+  2) A.2.3.0200. Assign administrators and account managers
+       A.2.3.0200.100 Remove admin:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Assign%20Administrators_3\A.2.3.0200.%20-%20Add%20Remove%20Admins.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Assign%20Administrators_3\A.2.3.0200.%20-%20Add%20Remove%20Admins.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  6                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     7 minutes, 0 seconds                                                             │
+  │ Spec Ran:     A/Assign Administrators_3/A.2.3.0200. - Add Remove Admins.feature                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Giveremove user a               
+     dmin user rights (failed).png                                                                  
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Giveremove user a               
+     dmin user rights (failed) (attempt 2).png                                                      
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Giveremove user a               
+     dmin user rights (failed) (attempt 3).png                                                      
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Remove admin (fai               
+     led).png                                                                                       
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Remove admin (fai               
+     led) (attempt 2).png                                                                           
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature\A.2.3.0200               
+     . Assign administrators and account managers -- A.2.3.0200.100 Remove admin (fai               
+     led) (attempt 3).png                                                                           
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Assign Administrators_3\A.2.3.0200. - Add Remove Admins.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Assign Administrators_3/A.2.3.0300. - Super Users and Account Mana         (11 of 177)
+            gers.feature                                                                            
+
+
+  A.2.3.0300. Assign administrators and account managers
+    √ A.2.3.0300.100 Modify and Revoke Admin's User Rights (165239ms)
+
+
+  1 passing (3m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     2 minutes, 45 seconds                                                            │
+  │ Spec Ran:     A/Assign Administrators_3/A.2.3.0300. - Super Users and Account Managers.feature │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Assign Administrators_3\A.2.3.0300. - Super Users and Account Managers.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Assign Administrators_3/A.2.3.0400. - Assign Administrators and Ac         (12 of 177)
+            count Managers.feature                                                                  
+
+
+  A.2.3.0400. Assign administrators and account managers
+    √ A.2.3.0400.100 Give and remove user maximum user privileges (66784ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 6 seconds                                                              │
+  │ Spec Ran:     A/Assign Administrators_3/A.2.3.0400. - Assign Administrators and Account Manage │
+  │               rs.feature                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Assign Administrators_3\A.2.3.0400. - Assign Administrators and Account Managers.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Field Validation_8/A.4.8.0100. - Enable field validation.feature           (13 of 177)
+
+
+  Control Center: The system shall support the enabling/disabling of field validation types.  (Date (Y-M-D) | Datetime (Y-M-D H:M) | Datetime w/seconds (Y-M-D H:M:S) | Email | Integer | Number | Number (1 decimal place - comma as decimal) | Time (HH:MM))
+    (Attempt 1 of 3) A.4.8.0100.100 Control center Enable/disable field validation
+    (Attempt 2 of 3) A.4.8.0100.100 Control center Enable/disable field validation
+    1) A.4.8.0100.100 Control center Enable/disable field validation
+
+
+  0 passing (6m)
+  1 failing
+
+  1) Control Center: The system shall support the enabling/disabling of field validation types.  (Date (Y-M-D) | Datetime (Y-M-D H:M) | Datetime w/seconds (Y-M-D H:M:S) | Email | Integer | Number | Number (1 decimal place - comma as decimal) | Time (HH:MM))
+       A.4.8.0100.100 Control center Enable/disable field validation:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Field%20Validation_8\A.4.8.0100.%20-%20Enable%20field%20validation.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Field%20Validation_8\A.4.8.0100.%20-%20Enable%20field%20validation.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     6 minutes, 29 seconds                                                            │
+  │ Spec Ran:     A/Field Validation_8/A.4.8.0100. - Enable field validation.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4.8.0               
+     1.png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4. (1               
+     ).png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4. (2               
+     ).png                                                                                          
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/File Repository_26/A.3.26.0100. - Public File Share.feature                (14 of 177)
+
+
+  Control Center: The system shall provide the ability to enable/disable sharing of files via a public link.
+    (Attempt 1 of 3) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+    (Attempt 2 of 3) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+    1) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+
+
+  0 passing (5m)
+  1 failing
+
+  1) Control Center: The system shall provide the ability to enable/disable sharing of files via a public link.
+       A.3.26.0100.100 Enable/Disable file repository public links via Control Center:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\File%20Repository_26\A.3.26.0100.%20-%20Public%20File%20Share.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\File%20Repository_26\A.3.26.0100.%20-%20Public%20File%20Share.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 15 seconds                                                            │
+  │ Spec Ran:     A/File Repository_26/A.3.26.0100. - Public File Share.feature                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed).png                                                                        
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed) (attempt 2).png                                                            
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed) (attempt 3).png                                                            
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\File Repository_26\A.3.26.0100. - Public File Share.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Configuration Check_1/A.1.1.0100. - Run Configuration Check.featur         (15 of 177)
+            e                                                                                       
+
+
+  A.1.1.0100. Run Configuration Check test page
+    √ A.1.1.0100.100 Configuration Checklist Tests (60949ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 1 second                                                               │
+  │ Spec Ran:     A/Configuration Check_1/A.1.1.0100. - Run Configuration Check.feature            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Configuration Check_1\A.1.1.0100. - Run Configuration Check.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0100. - User Create Projects.feature                 (16 of 177)
+
+
+  A.6.4.0100. Manage project creation, deletion, and settings.   Control Center: The system shall support the option to limit the creation of new projects to administrators.
+    (Attempt 1 of 3) A.6.4.0100.100 User's ability to create new projects
+    (Attempt 2 of 3) A.6.4.0100.100 User's ability to create new projects
+    1) A.6.4.0100.100 User's ability to create new projects
+
+
+  0 passing (5m)
+  1 failing
+
+  1) A.6.4.0100. Manage project creation, deletion, and settings.   Control Center: The system shall support the option to limit the creation of new projects to administrators.
+       A.6.4.0100.100 User's ability to create new projects:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Project%20Setup_4\A.6.4.0100.%20-%20User%20Create%20Projects.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Project%20Setup_4\A.6.4.0100.%20-%20User%20Create%20Projects.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     5 minutes, 18 seconds                                                            │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0100. - User Create Projects.feature                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed).png                                
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed) (attempt 2).png                    
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1280x720)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed) (attempt 3).png                    
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0200. - Move to Production.feature                   (17 of 177)
+
+
+  A.6.4.0200. Manage project creation, deletion, and settings
+    √ A.6.4.0200.100 User requests admin move project to production (174423ms)
+    √ A.6.4.200.200 User moves project to production (109094ms)
+
+
+  2 passing (5m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     4 minutes, 44 seconds                                                            │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0200. - Move to Production.feature                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0200. - Move to Production.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0400. - Draft Mode.feature                           (18 of 177)
+
+
+  A.6.4.0400. Manage project creation, deletion, and settings. Control Center: The system shall allow production Draft Mode changes to be approved automatically under certain conditions.
+    √ A.6.4.0400.100 User's ability to approve draft changes without administrative approval (349991ms)
+    √ A.6.4.0400.200 User's ability to approve draft changes without administrative approval if no existing fields were modified (274790ms)
+    √ A.6.4.0400.300 User's ability to approve draft changes without administrative approval if no critical issues exist (579390ms)
+
+
+  3 passing (20m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     20 minutes, 6 seconds                                                            │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0400. - Draft Mode.feature                               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0400. - Draft Mode.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0500. - Repeatable Instruments.feature               (19 of 177)
+
+
+  A.6.4.0500. Control Center: The system shall support the option to limit adding or modifying repeatable instruments while in production to administrators
+    √ A.6.4.0500.100 User's ability to add or modify repeatable instrument while in production mode (708695ms)
+
+
+  1 passing (12m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     11 minutes, 49 seconds                                                           │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0500. - Repeatable Instruments.feature                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0500. - Repeatable Instruments.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0600. - Events and Arms in Production.featur         (20 of 177)
+            e                                                                                       
+
+
+  A.6.4.0600 Manage project creation, deletion, and settings. Control Center: The system shall support the option to limit adding or modifying events and arms while in production to administrators. Note: user can add instrument to event in production.
+
+We detected that the Electron Renderer process just crashed.
+
+We have failed the current spec but will continue running the next spec.
+
+This can happen for a number of different reasons.
+
+If you're running lots of tests on a memory intense application.
+  - Try increasing the CPU/memory on the machine you're running on.
+  - Try enabling experimentalMemoryManagement in your config file.
+  - Try lowering numTestsKeptInMemory in your config file during 'cypress open'.
+
+You can learn more here:
+
+https://on.cypress.io/renderer-process-crashed
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     29 minutes, 30 seconds                                                           │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0600. - Events and Arms in Production.feature            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0600. - Events and Arms in Production.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0700. - Blank Slate Projects.feature                 (21 of 177)
+
+
+  A.6.4.0700. Manage project creation, deletion, and settings. User Interface  General: The system shall support the ability to create new projects from a blank slate.
+    √ A.6.4.0700.100 Create blank new project (34654ms)
+
+
+  1 passing (35s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     34 seconds                                                                       │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0700. - Blank Slate Projects.feature                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0700. - Blank Slate Projects.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.1500. - Manage Survey User..feature                  (22 of 177)
+
+
+  Control Center: The system shall allow the survey feature to be enabled or disabled.
+    √ A.6.4.1500.100 Enable and disable survey feature (112649ms)
+
+
+  1 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 53 seconds                                                             │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.1500. - Manage Survey User..feature                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.1500. - Manage Survey User..feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.1600. - Edit Survey Responses.feature                (23 of 177)
+
+
+  Control Center: The system shall allow users to edit survey responses to be enabled or disabled.
+We detected that the electron tab running Cypress tests closed unexpectedly.
+
+We have failed the current spec and aborted the run.
