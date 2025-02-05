@@ -646,3 +646,68 @@ Wed, Feb  5, 2025 12:47:47 PM
 
   A.6.4.0100. Manage project creation, deletion, and settings.   Control Center: The system shall support the option to limit the creation of new projects to administrators.
     (Attempt 1 of 3) A.6.4.0100.100 User's ability to create new projects
+    (Attempt 2 of 3) A.6.4.0100.100 User's ability to create new projects
+    1) A.6.4.0100.100 User's ability to create new projects
+
+
+  0 passing (7m)
+  1 failing
+
+  1) A.6.4.0100. Manage project creation, deletion, and settings.   Control Center: The system shall support the option to limit the creation of new projects to administrators.
+       A.6.4.0100.100 User's ability to create new projects:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Project%20Setup_4\A.6.4.0100.%20-%20User%20Create%20Projects.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Project%20Setup_4\A.6.4.0100.%20-%20User%20Create%20Projects.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     6 minutes, 37 seconds                                                            │
+  │ Spec Ran:     A/Project Setup_4/A.6.4.0100. - User Create Projects.feature                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed).png                                
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed) (attempt 2).png                    
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature\A.6.4.0100. Man               
+     age project creation, deletion, and settings.   Control Center The system shall                
+     support the option to limit the creation of new projects to administrators -- A.               
+     6.4.0100.100 User's ability to create new projects (failed) (attempt 3).png                    
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Project Setup_4\A.6.4.0100. - User Create Projects.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0200. - Move to Production.feature                   (17 of 177)
+
+
+  A.6.4.0200. Manage project creation, deletion, and settings
