@@ -12,5 +12,5 @@ cd redcap_cypress || exit
 
 #git clone git@github.com:aldefouw/redcap_rsvc.git
 #git submodule add git@github.com:aldefouw/redcap_rsvc.git redcap_rsvc
-git clone git@github.com:4bbakers/redcap_rsvc
-git submodule add git@github.com:4bbakers/redcap_rsvc redcap_rsvc
+git clone git@github.com:dogagingproject/redcap_rsvc
+git submodule add git@github.com:dogagingproject/redcap_rsvc redcap_rsvc
