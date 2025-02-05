@@ -579,3 +579,70 @@ Wed, Feb  5, 2025 12:47:47 PM
 
 
   Control Center: The system shall provide the ability to enable/disable sharing of files via a public link.
+    (Attempt 1 of 3) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+    (Attempt 2 of 3) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+    1) A.3.26.0100.100 Enable/Disable file repository public links via Control Center
+
+
+  0 passing (7m)
+  1 failing
+
+  1) Control Center: The system shall provide the ability to enable/disable sharing of files via a public link.
+       A.3.26.0100.100 Enable/Disable file repository public links via Control Center:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\File%20Repository_26\A.3.26.0100.%20-%20Public%20File%20Share.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\File%20Repository_26\A.3.26.0100.%20-%20Public%20File%20Share.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     6 minutes, 42 seconds                                                            │
+  │ Spec Ran:     A/File Repository_26/A.3.26.0100. - Public File Share.feature                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed).png                                                                        
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed) (attempt 2).png                                                            
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\File Repository_26\A.3.26.0100. - Public File Share.feature\Control Center               
+      The system shall provide the ability to enabledisable sharing of files via a pu               
+     blic link -- A.3.26.0100.100 EnableDisable file repository public links via Cont               
+     rol Center (failed) (attempt 3).png                                                            
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\File Repository_26\A.3.26.0100. - Public File Share.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/Project Setup_4/A.6.4.0100. - User Create Projects.feature                 (16 of 177)
+
+
+  A.6.4.0100. Manage project creation, deletion, and settings.   Control Center: The system shall support the option to limit the creation of new projects to administrators.
+    (Attempt 1 of 3) A.6.4.0100.100 User's ability to create new projects
