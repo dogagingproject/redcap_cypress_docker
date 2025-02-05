@@ -512,3 +512,70 @@ Wed, Feb  5, 2025 12:47:47 PM
   Control Center: The system shall support the enabling/disabling of field validation types.  (Date (Y-M-D) | Datetime (Y-M-D H:M) | Datetime w/seconds (Y-M-D H:M:S) | Email | Integer | Number | Number (1 decimal place - comma as decimal) | Time (HH:MM))
     (Attempt 1 of 3) A.4.8.0100.100 Control center Enable/disable field validation
     (Attempt 2 of 3) A.4.8.0100.100 Control center Enable/disable field validation
+    1) A.4.8.0100.100 Control center Enable/disable field validation
+
+
+  0 passing (8m)
+  1 failing
+
+  1) Control Center: The system shall support the enabling/disabling of field validation types.  (Date (Y-M-D) | Datetime (Y-M-D H:M) | Datetime w/seconds (Y-M-D H:M:S) | Email | Integer | Number | Number (1 decimal place - comma as decimal) | Time (HH:MM))
+       A.4.8.0100.100 Control center Enable/disable field validation:
+
+      Timed out retrying after 60000ms
+      + expected - actual
+
+
+      at eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Field%20Validation_8\A.4.8.0100.%20-%20Enable%20field%20validation.feature:18209:59)
+      at Context.eval (http://localhost:8080/__cypress/tests?p=redcap_rsvc\Feature%20Tests\A\Field%20Validation_8\A.4.8.0100.%20-%20Enable%20field%20validation.feature:18302:11)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     7 minutes, 45 seconds                                                            │
+  │ Spec Ran:     A/Field Validation_8/A.4.8.0100. - Enable field validation.feature               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4.8.0               
+     1.png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4. (1               
+     ).png                                                                                          
+  -  C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\screensh     (1256x627)
+     ots\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature\Control C               
+     enter The system shall support the enablingdisabling of field validation types.                
+      (Date (Y-M-D)  Datetime (Y-M-D HM)  Datetime wseconds (Y-M-D HMS)  Email  Integ               
+     er  Number  Number (1 decimal place - comma as decimal)  Time (HHMM)) -- A.4. (2               
+     ).png                                                                                          
+
+
+  (Video)
+
+  -  Video output: C:\Users\paul\source\repos\redcap_cypress_docker\redcap_cypress\cypress\videos\A\Field Validation_8\A.4.8.0100. - Enable field validation.feature.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  A/File Repository_26/A.3.26.0100. - Public File Share.feature                (15 of 177)
+
+
+  Control Center: The system shall provide the ability to enable/disable sharing of files via a public link.
